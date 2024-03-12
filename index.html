@@ -5,21 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>러브코미디 대학</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h2 class="title">
-        <img src="logo.png">러브코미디 대학에 오신 것을 환영합니다!
-    </h2>
-    <p>
-        <button type="button" class="register" onclick="location.href='register.html'">
-            지원서 작성하기
-        </button>
-    </p>
-    <p>
-        <div class="contact">
-            <input type="button" value="정보" onclick="location.href='/support/about.html'" />
-            <input type="button" value="문의" onclick="location.href='/support/contact.html'" />
-            <input type="button" value="친목 신고" onclick="location.href='/support/report.html'" />
-        </div>
-    </p>
+    <div class="title">
+        <img src="logo.png">
+        <h2>
+            러브코미디 대학에 오신 것을 환영합니다!
+        </h2>
+    </div>
+    <div class="button">
+        <input type="button" class="btn-hover"  onclick="location.href='register.html'" value="지원서 작성하기">
+        <input type="button" class="btn-hover" value="정보" onclick="location.href='/support/about.html'" />
+        <input type="button" class="btn-hover" value="문의" onclick="location.href='/support/contact.html'" />
+        <input type="button" class="btn-hover" value="친목 신고" onclick="location.href='/support/report.html'" />
+    </div>
 </body>
