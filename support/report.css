@@ -1,0 +1,20 @@
+.title {
+    font-size: 35px;
+}
+
+.title2 {
+    font-size: 25px;
+}
+
+.title3 {
+    font-size: 30px;
+    color: red;
+}
+
+label {
+    font-size: 20px;
+}
+
+html {
+    text-align: center;
+}
